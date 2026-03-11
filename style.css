@@ -270,3 +270,24 @@ font-size:20px;
 
 }
 
+/* MOBILE NAVBAR FIX */
+
+@media (max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:10px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+nav a{
+margin:8px 10px;
+font-size:14px;
+}
+
+}
