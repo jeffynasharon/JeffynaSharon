@@ -236,12 +236,13 @@ width:180px;
 align-self:center;
 }
 
-/* MOBILE RESPONSIVE */
+/* MOBILE RESPONSIVE FIX */
 
-@media (max-width:768px){
+@media screen and (max-width:768px){
 
 .hero{
 flex-direction:column;
+align-items:center;
 text-align:center;
 }
 
@@ -249,21 +250,21 @@ text-align:center;
 margin-top:30px;
 }
 
-/* smaller hexagon for mobile */
+/* make photo smaller in mobile */
 
 .hexagon{
-width:200px;
-height:200px;
+width:180px;
+height:180px;
 }
 
 .hexagon img{
-width:85%;
+width:80%;
 }
 
-/* reduce heading size */
+/* adjust headings */
 
 .hero-text h1{
-font-size:38px;
+font-size:36px;
 }
 
 .hero-text h2{
